@@ -7,8 +7,8 @@ import { FaCog } from 'react-icons/fa';
 export function Header(){
 return(
     <header id="header">
-         <div className="container d-flex-beetween">
-                <div className="d-flex-beetween">
+        <div className="container d-flex-between">
+                <div className="d-flex-between">
                     <div className="logo">
                         <img src={logo} alt="" />
                     </div>
