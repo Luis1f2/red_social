@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Satisfy&family=Source+Sans+3:wght@200&display=swap');
+
+.profile {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+}
+
+.left-pane {
+    width: 65%;
+    background-color: rgb(253, 253, 253);
+    margin: 10px 2% 5px 10%;
+}
+
+.right-pane {
+    width: 35%;
+    background-color: #F3F3F3;
+    margin: 10px 10px 5px 2%;
+}
+
+.header {
+    background-color: #F3F3F3;
+    height:auto;
+    width: 100%;
+}
+
+.front-page {
+    width: 100%;
+   max-height: 250px;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.img-profile,
+.name,
+.hobbies {
+    justify-content: center;
+    text-align: left;
+    object-fit: cover;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    margin-left: 30px;
+    margin-top: -120px;
+}
+
+.name {
+    color: black;
+    margin-top: 0;
+    font-size: 8px;
+}
+
+h1,
+h2 {
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.hobbies {
+    width: 50%;
+}
